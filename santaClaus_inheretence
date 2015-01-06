@@ -1,0 +1,8 @@
+function isSantaClausable(obj) {
+  var canSayHoho = ((typeof obj['sayHoHoHo']) == "function");
+  var canDistributeGifts = ((typeof obj['distributeGifts']) == "function");
+  var canGoDownTheCimmey = ((typeof obj['goDownTheChimney']) == "function");
+
+  return canSayHoho && canDistributeGifts && canGoDownTheCimmey;
+
+}
